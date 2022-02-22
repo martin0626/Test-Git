@@ -52,10 +52,10 @@
 #             print(f'{film} - {cinema_full_percent:.2f}% full.')
 #             break
 #
-#         if place == free_places:
-#             cinema_full_percent = (1 / free_places * place) * 100
-#             print(f'{film} - {cinema_full_percent:.2f}% full.')
-#             break
+        if place == free_places:
+            cinema_full_percent = (1 / free_places * place) * 100
+            print(f'{film} - {cinema_full_percent:.2f}% full.')
+            break
 
 
 for num in range(10):
